@@ -1,0 +1,48 @@
+/* Using ids for applying style is way faster since there are a few unique elements (non-repearing) */
+#videoContainer {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  overflow: hidden;
+}
+#videoContainer video {
+  min-width: 100%; 
+  min-height: 100%; 
+  width: auto;
+  height: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  overflow: hidden;
+}
+
+#skipVideo {
+	padding: 10px;
+	position: absolute;
+	color: #450c68;
+	bottom: 0;
+}
+
+#audio {
+    position:absolute;
+    top: 10;
+    left: 10;
+    height: 100%;
+    width: 100%;
+}
+
+#playAudio {
+	padding: 10px;
+	position: absolute;
+	color: #450c68;
+	bottom: 0;
+}
+
+#lorem {
+	padding: 300px 500px 500px 500px;
+    color: #c4b144;
+    font-family: 'Ultra', serif;
+    text-shadow: 2px 2px rgba(73, 73, 63, 0.521);
+}
