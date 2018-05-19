@@ -2,6 +2,11 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.7.4.
 
+## Sample Video
+
+Download a sample movie from `http://download.blender.org/peach/bigbuckbunny_movies/big_buck_bunny_1080p_h264.mov` to your assets folder
+since it is too large for this repository
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
